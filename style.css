@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:700,900i|Roboto:300,500,700');
+
 /* ---- reset ---- */
 
 html {
@@ -15,48 +17,193 @@ html {
   * {
 	box-sizing: border-box;
 }
+
+
+::-webkit-scrollbar { 
+  display: none; 
+}
+
 body {
 	font-family: sans-serif;
 	scroll-snap-type: mandatory;
 	scroll-snap-points-y: repeat(100vh);
 	scroll-snap-type: y mandatory;
 }
-section {
-	border-bottom: 1px solid white;
-	padding: 1rem;
+.section {
+	
 	height: 100vh;
 	scroll-snap-align: start;
-	text-align: center;
 	position: relative;
 }
-h1	{
+
+.absolute{
+  position: absolute;
+}
+
+.title{
 	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	text-align: center;
-	color: black;
-	width: 100%;
-	left: 0;
+  top: 15%;
+  left: 3%;
+	color: white;
+  width: 483px;
+  height: 52px;
+  font-family: Lato;
+  font-size: 44px;
+  font-weight: 900;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.title1{
+  color: white;
+}
+
+.title2{
+  color: black;
+}
+
+.subtitle {
+  position: absolute;
+  top: 27%;
+  left: 3%;
+	color: white;
+  width: 421px;
+  height: 89px;
+  font-family: Roboto;
+  font-size: 27px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.description {
+  width: 591px;
+  height: 275px;
+  font-family: Roboto;
+  font-size: 27px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: normal;
+  color: #000000;
+  top: 40%;
+  left: 3%;
+}
+
+.button{
+  width: 164px;
+  height: 57px;
+  border-radius: 13px;
+  background-image: linear-gradient(to bottom, #fef200, #fce100);
+  font-family: Lato;
+  font-size: 28px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.9px;
+  color: #000000;
+  border: 0;
+}
+
+.button1{
+  top: 45%;
+  left: 3%;
+}
+
+.button2{
+  top: 82%;
+  left: 3%;
+}
+
+.button3{
+  top: 85%;
+  left: 42%;
+}
+
+p	{
+	position: absolute;
+	color: white;
 	font-size: calc(1rem + 3vw);
 }
 
 .section1 {
-    background-color: #019CFB;
-}
-
-.section2 {
-    
+  background-color: #019CFB;
 }
 
 .section3 {
-    
+  background-color: #F5F5F5;    
 }
-  
 
+aside{
+  top: 86%;
+  left: 60%;
+  font-family: Lato;
+  font-weight: 500;
+  font-size: 2em;
+}
 
-img {
-    -webkit-animation: fade 3s alternate infinite;
-    animation: fade 3s alternate infinite;
+/*-----------------------IMAGES--------------------------*/
+.images{
+  height: 100%;
+  top: 0%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  font-size: 0;
+  width: 1000px;
+	scroll-snap-type: mandatory;
+  scroll-snap-points-x: repeat(1000px);
+
+}
+
+.images::-webkit-scrollbar { 
+  display: none; 
+}
+
+.visor{
+  width: 100%;
+}
+
+.visor1{
+
+}
+
+.visor2{
+
+}
+
+.visor3{
+
+}
+
+.icon{
+  width: 80px;
+  height: 88px;
+  top: 27%;
+}
+
+.diamond{
+ left: 15%;
+}
+
+.shield{
+  left: 4%;
+}
+
+.mask{
+  left: 27%;
+}
+
+.glow {
+    -webkit-animation: fade 2s alternate infinite;
+    animation: fade 2s alternate infinite;
     display: block;
   }
   
