@@ -5,5 +5,25 @@ Cycolp Visors are designed to help in those situations when you can't controll t
 
 
 ## User stories
-- **Information** - As a user I want to be able to see information on the product
-- **Buy** - As a user I want to be able to buy the product
+- **Information** - As a user I want to be able to see information on the product.
+- **Buy** - As a user I want to be able to buy the product.
+
+## Backlog
+- Slide Image animation.
+
+## Links
+
+### Trello
+
+Link url
+
+## Git
+
+URls for the project repo and deploy 
+[Link Repo]()
+[Link Deploy]()
+
+## Slides
+
+URls for the project presentation (slides) 
+[Link Slides.com](http://slides.com)
