@@ -149,6 +149,21 @@ aside{
   font-size: 2em;
 }
 
+.corp{
+  top: 0%;
+  left: 87%;
+  width: 127px;
+  height: 21px;
+  font-family: Lato;
+  font-size: 17.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
 /*-----------------------IMAGES--------------------------*/
 .images{
   height: 100%;
@@ -186,7 +201,7 @@ aside{
 .icon{
   width: 80px;
   height: 88px;
-  top: 27%;
+  top: 24%;
 }
 
 .diamond{
@@ -200,6 +215,35 @@ aside{
 .mask{
   left: 27%;
 }
+
+.text {
+  top: 35%;
+  left: 22%;
+  width: 74px;
+  height: 76px;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.text1 {
+  left: 4%;
+}
+
+.text2 {
+  left: 15%;
+}
+
+.text3 {
+  left: 27%;
+}
+
 
 .glow {
     -webkit-animation: fade 2s alternate infinite;
