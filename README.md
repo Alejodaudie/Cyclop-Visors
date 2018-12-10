@@ -20,7 +20,7 @@ Link url
 ## Git
 
 URls for the project repo and deploy 
-[Link Repo]()
+[Link Repo](https://github.com/Alejodaudie/Cyclop-Visors)
 [Link Deploy]()
 
 ## Slides
